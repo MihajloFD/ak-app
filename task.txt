@@ -1,0 +1,8 @@
+- User connectors array in connectors.js file to build this view
+	https://gyazo.com/11d3127efe4db67f71739f98c142dfff
+	Hover effect : https://gyazo.com/1aa28255e4afe13377fa97a21a55a1c0
+	Mobile : https://gyazo.com/08856a7e3b581543fd069833c27364ea
+- Use React
+- Make sure the view is responsive.
+- Please include build steps with your submission
+- Don't use <table> tag

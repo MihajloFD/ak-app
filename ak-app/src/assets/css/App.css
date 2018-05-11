@@ -1,0 +1,77 @@
+.converters {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  border-radius: 5px; }
+  .converters .converter-name {
+    font-size: 14px; }
+  .converters .converter-hover {
+    display: none; }
+  @media screen and (min-width: 768px) {
+    .converters:hover {
+      box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.3); }
+      .converters:hover .converter {
+        position: relative; }
+        .converters:hover .converter .converter-hover {
+          padding: 20px 0 0 20px;
+          display: block;
+          background-color: rgba(0, 0, 0, 0.75);
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          cursor: pointer;
+          color: #fff;
+          font-size: 13px;
+          height: 100%; } }
+  .converters .converter-img {
+    width: 100%; }
+
+.icons-wraper {
+  text-align: center; }
+
+.icons {
+  display: inline-flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 150px; }
+  .icons .heart {
+    background-position: 0 -59px !important;
+    background: url("../images/card-icon.png");
+    height: 30px;
+    width: 50px;
+    background-color: #65d3c2;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .icons .right {
+    background-position: 0 -153px !important;
+    background: url("../images/card-icon.png");
+    height: 30px;
+    width: 50px;
+    background-color: #65d3c2;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .icons .magic {
+    background-position: 0 0 !important;
+    background: url("../images/magic-wand.png");
+    height: 30px;
+    width: 30px;
+    background-color: #65d3c2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px !important; }
+
+@media screen and (max-width: 1140px) {
+  .converter-hover {
+    padding: 10px; }
+    .converter-hover p {
+      margin: 0;
+      padding-bottom: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; } }
+
+/*# sourceMappingURL=App.css.map */

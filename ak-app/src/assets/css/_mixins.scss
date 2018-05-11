@@ -1,0 +1,10 @@
+
+@mixin icon($bgPosition,$bgUrl,$height,$width){
+    background-position: $bgPosition;
+    background: $bgUrl;
+    height: $height;
+    width: $width;
+    background-color: #65d3c2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
